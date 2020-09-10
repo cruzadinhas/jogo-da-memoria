@@ -90,7 +90,7 @@ function flipCard() {
                 flippedCards = [];
 
                 if(matches === 5){
-                    gameOver();
+                   setTimeout(gameOver , 1500);
                 }
             }
         }

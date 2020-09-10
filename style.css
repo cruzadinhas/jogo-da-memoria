@@ -61,7 +61,8 @@ body{
 }
 
 .face.flipped.match{
-    box-shadow: 0 0 10px #0f0;
+    box-shadow: 0 0 50px #0f0;
+    opacity: 0.5;
 }
 
 #modalGameOver {
@@ -81,7 +82,7 @@ body{
     position: relative;
     top: 250px;
     transition-property: top, opacity;
-    transition-duration: 1.5s;
+    transition-duration: 5s;
     opacity: 1;
     z-index: -1;
 }
