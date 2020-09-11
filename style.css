@@ -8,9 +8,17 @@ body{
     text-align: center;
 }
 
+@media only screen 
+and (max-height : 540px) {
+
+    #container {
+        max-height:100%;
+    }
+}
+
 #container {
     width: 1120px;
-    height: 835px;
+    height: 770px; /*anteriormente 835px, se quebrar mudar junto com o "card.style.top" do js*/
     border: 1px solid #7C1E85;
     position: relative;
     margin: 10px auto;
@@ -35,6 +43,7 @@ body{
 }
 
 .face {
+    max-width: 100%;
     width: 100%;
     height: 100%;
     position: absolute;
