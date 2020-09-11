@@ -18,7 +18,7 @@ and (max-height : 540px) {
 
 #container {
     width: 1120px;
-    height: 770px; /*anteriormente 835px, se quebrar mudar junto com o "card.style.top" do js*/
+    height: 690px; /*anteriormente 835px, se quebrar mudar junto com o "card.style.top" do js ATT: agora de 770 pra 690.*/
     border: 1px solid #7C1E85;
     position: relative;
     margin: 10px auto;
@@ -29,7 +29,7 @@ and (max-height : 540px) {
 
 .card {
     width: 200px;
-    height: 360px;
+    height: 320px; /* reverter para 360px se necessário */
     position: absolute;
     border-radius: 10px;
     border: solid;

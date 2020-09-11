@@ -38,9 +38,9 @@ function startGame(){
 
         let card = document.querySelector("#card" + i);
         card.style.left = i % 5 === 0 ? 5 + "px" : i % 5 * 225 + "px";
-        card.style.top = i < 5 ? 5 + "px" : 385 + "px";
+        card.style.top = i < 5 ? 5 + "px" : 345 + "px";
         //modifiquei aqui acima de 450px para 385px para ficar mais compacto
-        //qualquer coisa é só reverter essa modificação.
+        //qualquer coisa é só reverter essa modificação. ATT: agora 345px, mais uma tentativa.
 
         card.addEventListener('click' , flipCard , false);
 
